@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" external-system-id="Maven" name="chatServer-MiniProject:war">
+    <output-path>$PROJECT_DIR$/miniWebChat/chatServer/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>chatServer-MiniProject</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="chatServer-MiniProject-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="chatServer-MiniProject:war exploded" />
+    </root>
+  </artifact>
+</component>
