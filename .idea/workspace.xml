@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Update youtube clone Navbar and Sidebar(Instead of taking photos according to video instructions, use the Font Awesome web icon)." />
+    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Update youtube clone Feed at home page and video page." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +59,7 @@
       <workItem from="1717514882865" duration="1583000" />
       <workItem from="1717516546641" duration="355000" />
       <workItem from="1717603522607" duration="313000" />
+      <workItem from="1717689822927" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="A mini web chat make with Reactjs and spring boot.">
       <option name="closed" value="true" />
@@ -132,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717603639640</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update youtube clone Feed at home page and video page.">
+      <option name="closed" value="true" />
+      <created>1717689891833</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717689891833</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +162,7 @@
     <MESSAGE value="A mini web chat make with Reactjs and spring boot." />
     <MESSAGE value="A mini web chat make with Reactjs and spring boot.(re-up)" />
     <MESSAGE value="Update youtube clone Navbar and Sidebar(Instead of taking photos according to video instructions, use the Font Awesome web icon)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update youtube clone Navbar and Sidebar(Instead of taking photos according to video instructions, use the Font Awesome web icon)." />
+    <MESSAGE value="Update youtube clone Feed at home page and video page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update youtube clone Feed at home page and video page." />
   </component>
 </project>
