@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Completed video page." />
+    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add News App(Mini project) using React JS And Bootstrap.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +63,7 @@
       <workItem from="1717603522607" duration="313000" />
       <workItem from="1717689822927" duration="117000" />
       <workItem from="1717744504133" duration="66000" />
+      <workItem from="1717749317671" duration="808000" />
     </task>
     <task id="LOCAL-00001" summary="A mini web chat make with Reactjs and spring boot.">
       <option name="closed" value="true" />
@@ -150,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717744543285</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add News App(Mini project) using React JS And Bootstrap.">
+      <option name="closed" value="true" />
+      <created>1717749402072</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717749402072</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +184,7 @@
     <MESSAGE value="Update youtube clone Navbar and Sidebar(Instead of taking photos according to video instructions, use the Font Awesome web icon)." />
     <MESSAGE value="Update youtube clone Feed at home page and video page." />
     <MESSAGE value="Completed video page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed video page." />
+    <MESSAGE value="Add News App(Mini project) using React JS And Bootstrap." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add News App(Mini project) using React JS And Bootstrap." />
   </component>
 </project>
