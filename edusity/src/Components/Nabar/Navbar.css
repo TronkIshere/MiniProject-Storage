@@ -27,3 +27,8 @@ nav ul li{
     padding-left: 10%;
     padding-right: 10%;
 }
+
+.dark-nav{
+    background: #212EA0;
+    transition: 0.5s;
+}

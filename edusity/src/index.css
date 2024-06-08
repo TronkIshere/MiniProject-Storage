@@ -35,3 +35,8 @@ a{
 .icon-in-button {
   margin-left: 6px
 }
+
+.btn.dark-btn{
+  background-color: #212EA0;
+  color: #fff;
+}
