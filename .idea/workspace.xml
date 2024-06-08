@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add About, Programs, testimonials, Title Components into Edusity project." />
+    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add Contact, Footer Components into Edusity project, complete the overall look.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +67,8 @@
       <workItem from="1717756712711" duration="371000" />
       <workItem from="1717773792377" duration="124000" />
       <workItem from="1717837945563" duration="211000" />
+      <workItem from="1717843055043" duration="131000" />
+      <workItem from="1717843983131" duration="106000" />
     </task>
     <task id="LOCAL-00001" summary="A mini web chat make with Reactjs and spring boot.">
       <option name="closed" value="true" />
@@ -178,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717838110923</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add Contact, Footer Components into Edusity project, complete the overall look.">
+      <option name="closed" value="true" />
+      <created>1717843153701</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717843153701</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +216,7 @@
     <MESSAGE value="Add News App(Mini project) using React JS And Bootstrap." />
     <MESSAGE value="Add Edusity (mini project), set up the basis for the project, and completed the hero session." />
     <MESSAGE value="Add About, Programs, testimonials, Title Components into Edusity project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add About, Programs, testimonials, Title Components into Edusity project." />
+    <MESSAGE value="Add Contact, Footer Components into Edusity project, complete the overall look." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Contact, Footer Components into Edusity project, complete the overall look." />
   </component>
 </project>
