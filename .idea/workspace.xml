@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add Contact, Footer Components into Edusity project, complete the overall look.">
+    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Update responsive into Edusity project, complete the project.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +69,8 @@
       <workItem from="1717837945563" duration="211000" />
       <workItem from="1717843055043" duration="131000" />
       <workItem from="1717843983131" duration="106000" />
+      <workItem from="1717859817715" duration="150000" />
+      <workItem from="1717871956358" duration="92000" />
     </task>
     <task id="LOCAL-00001" summary="A mini web chat make with Reactjs and spring boot.">
       <option name="closed" value="true" />
@@ -190,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717843153701</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update responsive into Edusity project, complete the project.">
+      <option name="closed" value="true" />
+      <created>1717859884969</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1717859884969</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +227,7 @@
     <MESSAGE value="Add Edusity (mini project), set up the basis for the project, and completed the hero session." />
     <MESSAGE value="Add About, Programs, testimonials, Title Components into Edusity project." />
     <MESSAGE value="Add Contact, Footer Components into Edusity project, complete the overall look." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Contact, Footer Components into Edusity project, complete the overall look." />
+    <MESSAGE value="Update responsive into Edusity project, complete the project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update responsive into Edusity project, complete the project." />
   </component>
 </project>
