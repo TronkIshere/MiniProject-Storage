@@ -69,9 +69,9 @@ const Main = () => {
               <FontAwesomeIcon icon={faMessage} />
               {loading ? (
                 <div className="loader">
-                  <hr/>
-                  <hr/>
-                  <hr/>
+                  <hr />
+                  <hr />
+                  <hr />
                 </div>
               ) : (
                 <p dangerouslySetInnerHTML={{ __html: resultData }}></p>
@@ -94,11 +94,13 @@ const Main = () => {
                 className="search-box-icon fa-lg"
                 icon={faMicrophone}
               />
-              <FontAwesomeIcon
-                onClick={() => onSent()}
-                className="search-box-icon fa-lg"
-                icon={faPaperPlane}
-              />
+              {input ? (
+                <FontAwesomeIcon
+                  onClick={() => onSent()}
+                  className="search-box-icon fa-lg"
+                  icon={faPaperPlane}
+                />
+              ) : null}
             </div>
           </div>
           <p className="bottom-info">
