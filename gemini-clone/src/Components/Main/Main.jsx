@@ -62,12 +62,20 @@ const Main = () => {
         ) : (
           <div className="result">
             <div className="result-title">
-              <FontAwesomeIcon icon={faUserCircle}/>
+              <FontAwesomeIcon icon={faUserCircle} />
               <p>{recentPrompt}</p>
             </div>
             <div className="result-data">
-              <FontAwesomeIcon icon={faMessage}/>
-              <p dangerouslySetInnerHTML={{__html:resultData}}></p>
+              <FontAwesomeIcon icon={faMessage} />
+              {loading ? (
+                <div className="loader">
+                  <hr/>
+                  <hr/>
+                  <hr/>
+                </div>
+              ) : (
+                <p dangerouslySetInnerHTML={{ __html: resultData }}></p>
+              )}
             </div>
           </div>
         )}
@@ -83,12 +91,12 @@ const Main = () => {
             <div>
               <FontAwesomeIcon className="search-box-icon" icon={faImage} />
               <FontAwesomeIcon
-                className="search-box-icon"
+                className="search-box-icon fa-lg"
                 icon={faMicrophone}
               />
               <FontAwesomeIcon
                 onClick={() => onSent()}
-                className="search-box-icon"
+                className="search-box-icon fa-lg"
                 icon={faPaperPlane}
               />
             </div>
