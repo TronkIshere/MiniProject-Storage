@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add Create Pre-loader animation and typing effect into Gemini clone project." />
+    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add save prompt in sidebar and responsive into Gemini clone project (completed project).">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +74,8 @@
       <workItem from="1717936615845" duration="214000" />
       <workItem from="1717961857726" duration="173000" />
       <workItem from="1717993905346" duration="136000" />
+      <workItem from="1718015045552" duration="113000" />
+      <workItem from="1718015773046" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="A mini web chat make with Reactjs and spring boot.">
       <option name="closed" value="true" />
@@ -225,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717993991996</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add save prompt in sidebar and responsive into Gemini clone project (completed project).">
+      <option name="closed" value="true" />
+      <created>1718015133260</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1718015133260</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +268,7 @@
     <MESSAGE value="Add Gemini clone project (completed UI)." />
     <MESSAGE value="Add Generative AI Functionality into Gemini clone project." />
     <MESSAGE value="Add Create Pre-loader animation and typing effect into Gemini clone project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Create Pre-loader animation and typing effect into Gemini clone project." />
+    <MESSAGE value="Add save prompt in sidebar and responsive into Gemini clone project (completed project)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add save prompt in sidebar and responsive into Gemini clone project (completed project)." />
   </component>
 </project>
