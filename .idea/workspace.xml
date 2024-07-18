@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add Navbar, Sidebar make by React Pro Sidebar and Tables with Mui Data Grid." />
+    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add profile form, calendar page into AdminDashboard project.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,23 +25,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/MiniProject/MiniProject-Storage&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;4453be760414b708fccd7e785c5b8354&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/MiniProject/MiniProject-Storage/Admin-dashBoard",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "4453be760414b708fccd7e785c5b8354",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="ChatServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="chatServer-MiniProject" />
@@ -77,6 +79,7 @@
       <workItem from="1718015773046" duration="29000" />
       <workItem from="1721209043118" duration="249000" />
       <workItem from="1721217510002" duration="297000" />
+      <workItem from="1721292916978" duration="906000" />
     </task>
     <task id="LOCAL-00001" summary="A mini web chat make with Reactjs and spring boot.">
       <option name="closed" value="true" />
@@ -254,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721217680661</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add profile form, calendar page into AdminDashboard project.">
+      <option name="closed" value="true" />
+      <created>1721293173753</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1721293173753</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +299,7 @@
     <MESSAGE value="Add save prompt in sidebar and responsive into Gemini clone project (completed project)." />
     <MESSAGE value="Add AdminDashboard project with basic setup." />
     <MESSAGE value="Add Navbar, Sidebar make by React Pro Sidebar and Tables with Mui Data Grid." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Navbar, Sidebar make by React Pro Sidebar and Tables with Mui Data Grid." />
+    <MESSAGE value="Add profile form, calendar page into AdminDashboard project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add profile form, calendar page into AdminDashboard project." />
   </component>
 </project>
