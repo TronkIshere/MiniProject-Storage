@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FurryTube</title>
+    <link rel="stylesheet" href="YoutubeClone.css" />
+    <!-- FontAwesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header / Navbar -->
+      <header>
+        <nav class="navbar">
+          <div class="nav-section nav-left">
+            <button class="nav-button menu-button">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <a href="#" class="nav-logo">
+              <img src="pic/Screenshot (1687).png" alt="" class="logo-image" />
+              <h2 class="logo-text">FurryTube</h2>
+            </a>
+          </div>
+
+          <div class="nav-section nav-center">
+            <form action="#" class="search-form">
+              <input
+                class="search-input"
+                type="search"
+                placeholder="Search"
+                required
+              />
+              <button class="nav-button search-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+            <button class="nav-button mic-button">
+              <i class="fa-solid fa-microphone"></i>
+            </button>
+          </div>
+
+          <div class="nav-section nav-right">
+            <button class="nav-button search-button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button class="nav-button theme-button">
+              <i class="fa-solid fa-moon"></i>
+            </button>
+            <img class="user-image" src="pic/Screenshot (1688).png" alt="" />
+          </div>
+        </nav>
+      </header>
+
+      <div class="main-layout">
+        <div class="screen-overlay">
+
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <div class="nav-section nav-left">
+            <button class="nav-button menu-button">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <a href="#" class="nav-logo">
+                <img src="pic/Screenshot (1687).png" alt="" class="logo-image" />
+                <h2 class="logo-text">FurryTube</h2>
+            </a>
+        </div>
+
+          <div class="link-container">
+            <div class="link-section">
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-house"></i> Home
+              </a>
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-video"></i> Shorts
+              </a>
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-tv"></i> Subscription
+              </a>
+            </div>
+            <div class="section-separator"></div>
+
+            <div class="link-section">
+              <h4 class="section-title">You</h4>
+              <a href="#" class="link-item">
+                <i class="fa-regular fa-user"></i> Your channel
+              </a>
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-clock-rotate-left"></i> History
+              </a>
+              <a href="#" class="link-item">
+                <i class="fa-regular fa-clock"></i> Watch later
+              </a>
+            </div>
+            <div class="section-separator"></div>
+
+            <div class="link-section">
+              <h4 class="section-title">Explore</h4>
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-fire"></i> Trending
+              </a>
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-music"></i> Music
+              </a>
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-basketball"></i> Gaming
+              </a>
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-trophy"></i> Sprots
+              </a>
+            </div>
+            <div class="section-separator"></div>
+
+            <div class="link-section">
+              <h4 class="section-title">More from FurryTube</h4>
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-plus"></i> FurryTube Plus
+              </a>
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-music"></i> FurryTube Music
+              </a>
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-plane"></i> FurryTube Here
+              </a>
+            </div>
+            <div class="section-separator"></div>
+
+            <div class="link-section">
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-gear"></i> Settings
+              </a>
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-notes-medical"></i> Report
+              </a>
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-question"></i> Help
+              </a>
+              <a href="#" class="link-item">
+                <i class="fa-solid fa-exclamation"></i> Feedback
+              </a>
+            </div>
+            <div class="section-separator"></div>
+          </div>
+        </aside>
+
+        <div class="content-wrapper">
+          <!-- Category List -->
+          <div class="category-list">
+            <button class="category-button active">All</button>
+            <button class="category-button">Website</button>
+            <button class="category-button">Music</button>
+            <button class="category-button">Gaming</button>
+            <button class="category-button">Node.js</button>
+            <button class="category-button">JavScript</button>
+            <button class="category-button">React.js</button>
+            <button class="category-button">TypeScript</button>
+            <button class="category-button">Coding</button>
+            <button class="category-button">Next.js</button>
+            <button class="category-button">Data analysis</button>
+            <button class="category-button">Web Design</button>
+            <button class="category-button">HTML</button>
+            <button class="category-button">Tailwind</button>
+            <button class="category-button">CSS</button>
+            <button class="category-button">Express.js</button>
+          </div>
+
+          <!-- Video List -->
+          <div class="video-list">
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img class="thumbnail" src="pic/fudi2.jpg" alt="" />
+                <p class="duration">10:03</p>
+              </div>
+              <div class="video-info">
+                <img src="pic/Screenshot (1687).png" alt="" class="icon" />
+                <div class="video-details">
+                  <h2 class="title">Top 10 Furry to watch!</h2>
+                  <p class="channel-name">KinkyBoy75</p>
+                  <p class="views">27K Views - 4 months ago</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="video-card">
+                <div class="thumbnail-container">
+                  <img class="thumbnail" src="pic/fudi.jpg" alt="" />
+                  <p class="duration">45:01</p>
+                </div>
+                <div class="video-info">
+                  <img src="pic/Screenshot (1687).png" alt="" class="icon" />
+                  <div class="video-details">
+                    <h2 class="title">Fudi Fudi Fudi!</h2>
+                    <p class="channel-name">KinkyBoy75</p>
+                    <p class="views">550K Views - 1 months ago</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="video-card">
+                <div class="thumbnail-container">
+                  <img class="thumbnail" src="pic/fudi3.jpg" alt="" />
+                  <p class="duration">10:03</p>
+                </div>
+                <div class="video-info">
+                  <img src="pic/Screenshot (1687).png" alt="" class="icon" />
+                  <div class="video-details">
+                    <h2 class="title">Cute Fudi!</h2>
+                    <p class="channel-name">KinkyBoy75</p>
+                    <p class="views">10K Views - 4 months ago</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="video-card">
+                <div class="thumbnail-container">
+                  <img class="thumbnail" src="pic/fudi4.jpg" alt="" />
+                  <p class="duration">10:03</p>
+                </div>
+                <div class="video-info">
+                  <img src="pic/Screenshot (1687).png" alt="" class="icon" />
+                  <div class="video-details">
+                    <h2 class="title">Fudi!</h2>
+                    <p class="channel-name">KinkyBoy75</p>
+                    <p class="views">10K Views - 4 months ago</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="video-card">
+                <div class="thumbnail-container">
+                  <img class="thumbnail" src="pic/fudi5.jpg" alt="" />
+                  <p class="duration">20:03</p>
+                </div>
+                <div class="video-info">
+                  <img src="pic/Screenshot (1687).png" alt="" class="icon" />
+                  <div class="video-details">
+                    <h2 class="title">Fudi Friend!</h2>
+                    <p class="channel-name">KinkyBoy75</p>
+                    <p class="views">17K Views - 2 months ago</p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#" class="video-card">
+                <div class="thumbnail-container">
+                  <img class="thumbnail" src="pic/fudi6.jpg" alt="" />
+                  <p class="duration">10:03</p>
+                </div>
+                <div class="video-info">
+                  <img src="pic/Screenshot (1687).png" alt="" class="icon" />
+                  <div class="video-details">
+                    <h2 class="title">Fudi!!!</h2>
+                    <p class="channel-name">KinkyBoy75</p>
+                    <p class="views">300K Views - 8 months ago</p>
+                  </div>
+                </div>
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

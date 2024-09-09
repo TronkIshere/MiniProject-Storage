@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add some components front-end.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add ContactUsForm, LoginForm, SimpleWebsite." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +80,7 @@
       <workItem from="1721292916978" duration="906000" />
       <workItem from="1725698173200" duration="42000" />
       <workItem from="1725698269418" duration="122000" />
+      <workItem from="1725787333219" duration="675000" />
     </task>
     <task id="LOCAL-00001" summary="A mini web chat make with Reactjs and spring boot.">
       <option name="closed" value="true" />
@@ -275,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725698324053</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add ContactUsForm, LoginForm, SimpleWebsite.">
+      <option name="closed" value="true" />
+      <created>1725787409113</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1725787409113</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +318,7 @@
     <MESSAGE value="Add Navbar, Sidebar make by React Pro Sidebar and Tables with Mui Data Grid." />
     <MESSAGE value="Add profile form, calendar page into AdminDashboard project." />
     <MESSAGE value="Add some components front-end." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some components front-end." />
+    <MESSAGE value="Add ContactUsForm, LoginForm, SimpleWebsite." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ContactUsForm, LoginForm, SimpleWebsite." />
   </component>
 </project>
