@@ -22,7 +22,10 @@
     <link rel="stylesheet" href="homepage.css" />
   </head>
   <body>
+    
+
     <!-- navbar -->
+    <!-- px-4 là padding theo chiều ngang, nếu là y thì theo chiều dọc -->
     <nav
       class="navbar navbar-expand-lg bg-body-tertiary navbar-light bg-light px-4 border-bottom fixed-top"
     >
@@ -42,6 +45,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- ms-auto: Đẩy danh sách điều hướng về phía bên phải của thanh điều hướng (margin-start auto). -->
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
             <li class="nav-item">
               <a
@@ -110,6 +114,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
+          <!-- d là display, còn w là chiều rộng theo phần trăm -->
           <img src="b5img/banner.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-md-block">
             <h5>First slide label</h5>
@@ -117,6 +122,10 @@
           </div>
         </div>
         <div class="carousel-item">
+          <!-- Lí do các img có d-block là: -->
+          <!-- - Hình ảnh mặc định là inline -->
+          <!-- - Đảm bảo căn chỉnh và không có khoảng trắng thừa -->
+          <!-- - Để phù hợp với w-100 -->
           <img src="b5img/banner1.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-md-block">
             <h5>Second slide label</h5>
@@ -155,11 +164,17 @@
     <section class="about my-5" id="about">
       <div class="container">
         <div class="text-center">
-          <h1 data-aos="fade-up" data-aos-offset="200">About <span class="text-primary">me</span></h1>
+          <h1 data-aos="fade-up" data-aos-offset="200">
+            About <span class="text-primary">me</span>
+          </h1>
           <hr class="w-25 m-auto" />
         </div>
         <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="zoom-in" data-aos-offset="200">
+          <div
+            class="col-sm-12 col-md-6 col-lg-6 col-12"
+            data-aos="zoom-in"
+            data-aos-offset="200"
+          >
             <h1>What do you <span class="text-primary">want to know?</span></h1>
             <p class="p-2">
               Use our powerful mobile-first flexbox grid to build layouts of all
@@ -167,7 +182,12 @@
               responsive tiers, Sass variables and mixins, and dozens of
               predefined classes.
             </p>
-            <button type="button" class="btn btn-light mb-5" data-aos="zoom-in-left" data-aos-offset="200">
+            <button
+              type="button"
+              class="btn btn-light mb-5"
+              data-aos="zoom-in-left"
+              data-aos-offset="200"
+            >
               More about me
             </button>
 
@@ -268,7 +288,13 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end">
-            <img src="b5img/s4.jpg" alt="" class="img-fluid img-thumbnail" data-aos="fade-right" data-aos-offset="200"/>
+            <img
+              src="b5img/s4.jpg"
+              alt=""
+              class="img-fluid img-thumbnail"
+              data-aos="fade-right"
+              data-aos-offset="200"
+            />
           </div>
         </div>
       </div>
@@ -436,7 +462,11 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="fade-up-left" data-aos-offset="200">
+          <div
+            class="col-sm-12 col-md-6 col-lg-6 col-12"
+            data-aos="fade-up-left"
+            data-aos-offset="200"
+          >
             <form class="row g-3">
               <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
@@ -492,7 +522,11 @@
             </form>
           </div>
 
-          <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end p-4" data-aos="fade-up-right" data-aos-offset="200">
+          <div
+            class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end p-4"
+            data-aos="fade-up-right"
+            data-aos-offset="200"
+          >
             <img src="b5img/s6.jpg" alt="" class="img-fluid img-thumbnail" />
           </div>
         </div>
@@ -514,7 +548,7 @@
     <!-- script của michalsnik -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
-      </script>
+      AOS.init();
+    </script>
   </body>
 </html>

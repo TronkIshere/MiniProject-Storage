@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add FurryTube.">
+    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add more bootstrap responsive web.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +85,9 @@
       <workItem from="1725787333219" duration="675000" />
       <workItem from="1725883151909" duration="56000" />
       <workItem from="1725982963550" duration="8000" />
+      <workItem from="1726129044686" duration="75000" />
+      <workItem from="1726199099347" duration="63000" />
+      <workItem from="1726214396530" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="A mini web chat make with Reactjs and spring boot.">
       <option name="closed" value="true" />
@@ -294,7 +297,31 @@
       <option name="project" value="LOCAL" />
       <updated>1725883189006</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Add Basic Boostrap folder.">
+      <option name="closed" value="true" />
+      <created>1726129105387</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1726129105387</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Add Landing page responsive web.">
+      <option name="closed" value="true" />
+      <created>1726199143944</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1726199143944</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add more bootstrap responsive web.">
+      <option name="closed" value="true" />
+      <created>1726214450867</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1726214450867</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +359,9 @@
     <MESSAGE value="Add some components front-end." />
     <MESSAGE value="Add ContactUsForm, LoginForm, SimpleWebsite." />
     <MESSAGE value="Add FurryTube." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add FurryTube." />
+    <MESSAGE value="Add Basic Boostrap folder." />
+    <MESSAGE value="Add Landing page responsive web." />
+    <MESSAGE value="Add more bootstrap responsive web." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add more bootstrap responsive web." />
   </component>
 </project>
