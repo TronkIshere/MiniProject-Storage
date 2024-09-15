@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add more bootstrap responsive web.">
+    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add Restaurant website with navbar, top banner, counter.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end-pratice/basicBootstrap/TechnoWeb/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-pratice/basicBootstrap/TechnoWeb/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +89,10 @@
       <workItem from="1726129044686" duration="75000" />
       <workItem from="1726199099347" duration="63000" />
       <workItem from="1726214396530" duration="76000" />
+      <workItem from="1726236892068" duration="94000" />
+      <workItem from="1726240437621" duration="9000" />
+      <workItem from="1726281335128" duration="15000" />
+      <workItem from="1726332860617" duration="217000" />
     </task>
     <task id="LOCAL-00001" summary="A mini web chat make with Reactjs and spring boot.">
       <option name="closed" value="true" />
@@ -321,7 +326,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726214450867</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Update annotation.">
+      <option name="closed" value="true" />
+      <created>1726236936702</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1726236936703</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Add Restaurant website with navbar, top banner, counter.">
+      <option name="closed" value="true" />
+      <created>1726332919799</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1726332919799</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,6 +383,8 @@
     <MESSAGE value="Add Basic Boostrap folder." />
     <MESSAGE value="Add Landing page responsive web." />
     <MESSAGE value="Add more bootstrap responsive web." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add more bootstrap responsive web." />
+    <MESSAGE value="Update annotation." />
+    <MESSAGE value="Add Restaurant website with navbar, top banner, counter." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Restaurant website with navbar, top banner, counter." />
   </component>
 </project>
