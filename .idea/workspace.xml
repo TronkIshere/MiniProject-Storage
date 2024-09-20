@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add Restaurant website with navbar, top banner, counter.">
+    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add react-quill-demo.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end-pratice/basicBootstrap/TechnoWeb/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end-pratice/basicBootstrap/TechnoWeb/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,23 +25,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/MiniProject/MiniProject-Storage&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;4453be760414b708fccd7e785c5b8354&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/MiniProject/MiniProject-Storage/testemail",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "4453be760414b708fccd7e785c5b8354",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="ChatServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="chatServer-MiniProject" />
@@ -93,6 +92,10 @@
       <workItem from="1726240437621" duration="9000" />
       <workItem from="1726281335128" duration="15000" />
       <workItem from="1726332860617" duration="217000" />
+      <workItem from="1726390216089" duration="173000" />
+      <workItem from="1726413526051" duration="16000" />
+      <workItem from="1726801237661" duration="636000" />
+      <workItem from="1726815660616" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="A mini web chat make with Reactjs and spring boot.">
       <option name="closed" value="true" />
@@ -342,7 +345,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726332919799</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="completed Restaurant page.">
+      <option name="closed" value="true" />
+      <created>1726390335316</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1726390335316</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Add react-quill-demo.">
+      <option name="closed" value="true" />
+      <created>1726801273276</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1726801273276</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,8 +379,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="A mini web chat make with Reactjs and spring boot." />
-    <MESSAGE value="A mini web chat make with Reactjs and spring boot.(re-up)" />
     <MESSAGE value="Update youtube clone Navbar and Sidebar(Instead of taking photos according to video instructions, use the Font Awesome web icon)." />
     <MESSAGE value="Update youtube clone Feed at home page and video page." />
     <MESSAGE value="Completed video page." />
@@ -385,6 +402,8 @@
     <MESSAGE value="Add more bootstrap responsive web." />
     <MESSAGE value="Update annotation." />
     <MESSAGE value="Add Restaurant website with navbar, top banner, counter." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Restaurant website with navbar, top banner, counter." />
+    <MESSAGE value="completed Restaurant page." />
+    <MESSAGE value="Add react-quill-demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add react-quill-demo." />
   </component>
 </project>
