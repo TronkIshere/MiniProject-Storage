@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add basic react native app project with full setup." />
+    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add Bottom Tabs into React Native App.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,6 +99,8 @@
       <workItem from="1728319834435" duration="734000" />
       <workItem from="1728329635102" duration="34000" />
       <workItem from="1728393037924" duration="90000" />
+      <workItem from="1728403973709" duration="170000" />
+      <workItem from="1728486383563" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="A mini web chat make with Reactjs and spring boot.">
       <option name="closed" value="true" />
@@ -370,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728319967898</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Add Bottom Tabs into React Native App.">
+      <option name="closed" value="true" />
+      <created>1728404045838</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1728404045838</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +400,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update youtube clone Feed at home page and video page." />
     <MESSAGE value="Completed video page." />
     <MESSAGE value="Add News App(Mini project) using React JS And Bootstrap." />
     <MESSAGE value="Add Edusity (mini project), set up the basis for the project, and completed the hero session." />
@@ -413,6 +424,7 @@
     <MESSAGE value="completed Restaurant page." />
     <MESSAGE value="Add react-quill-demo." />
     <MESSAGE value="Add basic react native app project with full setup." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add basic react native app project with full setup." />
+    <MESSAGE value="Add Bottom Tabs into React Native App." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Bottom Tabs into React Native App." />
   </component>
 </project>
