@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add OnBoarding Screen into React Native App." />
+    <list default="true" id="e6dbad95-4ba7-4cc6-bf9f-07468a20851a" name="Changes" comment="Add Auth Screens into React Native App." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,6 +100,7 @@
       <workItem from="1728403973709" duration="170000" />
       <workItem from="1728486383563" duration="19000" />
       <workItem from="1728532285520" duration="127000" />
+      <workItem from="1728548209009" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="A mini web chat make with Reactjs and spring boot.">
       <option name="closed" value="true" />
@@ -389,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728532347297</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Add Auth Screens into React Native App.">
+      <option name="closed" value="true" />
+      <created>1728548241284</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1728548241284</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +416,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add News App(Mini project) using React JS And Bootstrap." />
     <MESSAGE value="Add Edusity (mini project), set up the basis for the project, and completed the hero session." />
     <MESSAGE value="Add About, Programs, testimonials, Title Components into Edusity project." />
     <MESSAGE value="Add Contact, Footer Components into Edusity project, complete the overall look." />
@@ -432,6 +440,7 @@
     <MESSAGE value="Add basic react native app project with full setup." />
     <MESSAGE value="Add Bottom Tabs into React Native App." />
     <MESSAGE value="Add OnBoarding Screen into React Native App." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add OnBoarding Screen into React Native App." />
+    <MESSAGE value="Add Auth Screens into React Native App." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Auth Screens into React Native App." />
   </component>
 </project>
