@@ -3,7 +3,7 @@ import { Redirect, Tabs } from "expo-router";
 import { Image, Text, View } from "react-native";
 
 import { icons } from "../../constants";
-import { Loader } from "../../components/Loader";
+import Loader from "../../components/Loader";
 import { useGlobalContext } from "../../context/GlobalProvider";
 
 const TabIcon = ({ icon, color, name, focused }) => {
@@ -16,7 +16,7 @@ const TabIcon = ({ icon, color, name, focused }) => {
         className="w-6 h-6"
       />
       <Text
-        className={`${focused ? "font-psemibold" : "font-pregular"} text-xs`}
+        className={`${focused ? "font-psemibold" : "font-pregular"} text-xs}`}
         style={{ color: color }}
       >
         {name}
@@ -26,9 +26,9 @@ const TabIcon = ({ icon, color, name, focused }) => {
 };
 
 const TabLayout = () => {
-  const { loading, isLogged } = useGlobalContext();
+  const { isLoading, isLoggedIn } = useGlobalContext();
 
-  if (!loading && !isLogged) return <Redirect href="/sign-in" />;
+  if (!isLoading && !isLoggedIn) return <Redirect href="/sign-in" />;
 
   return (
     <>
@@ -108,7 +108,7 @@ const TabLayout = () => {
         />
       </Tabs>
 
-      <Loader isLoading={loading} />
+      <Loader isLoading={isLoading} />
       <StatusBar backgroundColor="#161622" style="light" />
     </>
   );

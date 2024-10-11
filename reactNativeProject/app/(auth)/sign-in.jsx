@@ -5,12 +5,12 @@ import { View, Text, ScrollView, Dimensions, Alert, Image } from "react-native";
 
 import { images } from "../../constants";
 import CustomButton from "../../components/CustomButton";
-import  FormField  from "../../components/FormField";
-import { getCurrentUser, signIn,getAccount } from "../../lib/appwrite";
+import FormField from "../../components/FormField";
+import { getCurrentUser, signIn } from "../../lib/appwrite";
 import { useGlobalContext } from "../../context/GlobalProvider";
 
 const SignIn = () => {
-  const { setUser, setIsLogged } = useGlobalContext();
+  const { setUser, setIsLoggedIn } = useGlobalContext();
   const [isSubmitting, setSubmitting] = useState(false);
   const [form, setForm] = useState({
     email: "",
@@ -20,24 +20,23 @@ const SignIn = () => {
   const submit = async () => {
     if (form.email === "" || form.password === "") {
       Alert.alert("Error", "Please fill in all fields");
+      return;
     }
-
+  
     setSubmitting(true);
-
+  
     try {
-      const currentAccount = await getAccount(); // Kiểm tra xem có phiên đăng nhập không
-
-    if (currentAccount) {
-      Alert.alert("Info", "User is already logged in");
-      return; // Không thực hiện đăng nhập nếu người dùng đã đăng nhập
-    }
+      // Proceed with signing in
       await signIn(form.email, form.password);
-      const result = await getCurrentUser();
-      setUser(result);
-      setIsLogged(true);
-
+      const userResult = await getCurrentUser();
+      console.log("Current User:", userResult);
+      setUser(userResult);
+      setIsLoggedIn(true);  // Đảm bảo tên biến đồng nhất
+  
       Alert.alert("Success", "User signed in successfully");
-      router.replace("/home");
+      setTimeout(() => {
+        router.push("/home");
+    }, 100);
     } catch (error) {
       Alert.alert("Error", error.message);
     } finally {
@@ -67,7 +66,7 @@ const SignIn = () => {
           <FormField
             title="Email"
             value={form.email}
-            handleChangeText={(e) => setForm({ ...form, email: e })}
+            handleChangeText={(email) => setForm({ ...form, email })}
             otherStyles="mt-7"
             keyboardType="email-address"
           />
@@ -75,7 +74,7 @@ const SignIn = () => {
           <FormField
             title="Password"
             value={form.password}
-            handleChangeText={(e) => setForm({ ...form, password: e })}
+            handleChangeText={(password) => setForm({ ...form, password })}
             otherStyles="mt-7"
           />
 

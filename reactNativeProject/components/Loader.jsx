@@ -1,5 +1,5 @@
 import { View, ActivityIndicator, Dimensions, Platform } from "react-native";
-
+import React from 'react';
 const Loader = ({ isLoading }) => {
   const osName = Platform.OS;
   const screenHeight = Dimensions.get("screen").height;

@@ -18,7 +18,6 @@ export const appwriteConfig = {
   storageId: "670793e600264ef64717",
 };
 
-// Init your React Native SDK
 const client = new Client();
 
 client
@@ -68,11 +67,20 @@ export async function createUser(email, password, username) {
 // Sign In
 export async function signIn(email, password) {
   try {
-    const session = await account.createEmailPasswordSession(email, password);
-
-    return session;
+    // Kiểm tra phiên đang hoạt động
+    const currentSession = await account.getSession('current'); // 'current' để lấy phiên hiện tại
+    console.log("Current session exists:", currentSession);
+    return currentSession; // Trả về phiên hiện tại nếu đã đăng nhập
   } catch (error) {
-    throw new Error(error);
+    // Nếu không có phiên hiện tại, sẽ tiến hành đăng nhập
+    try {
+      const session = await account.createEmailPasswordSession(email, password);
+      console.log("Session created successfully:", session);
+      return session;
+    } catch (error) {
+      console.error("SignIn Error:", error);
+      throw new Error(error.message || "An unknown error occurred during sign-in");
+    }
   }
 }
 
@@ -80,10 +88,11 @@ export async function signIn(email, password) {
 export async function getAccount() {
   try {
     const currentAccount = await account.get();
-
+    if (!currentAccount) throw new Error("No account session found");
     return currentAccount;
   } catch (error) {
-    throw new Error(error);
+    console.log("Error fetching account:", error);
+    throw new Error("Failed to get account");
   }
 }
 

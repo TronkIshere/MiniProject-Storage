@@ -3,7 +3,7 @@ import { ResizeMode, Video } from "expo-av";
 import { View, Text, TouchableOpacity, Image } from "react-native";
 
 import { icons } from "../constants";
-
+import React from 'react';
 const VideoCard = ({ title, creator, avatar, thumbnail, video }) => {
   const [play, setPlay] = useState(false);
 
