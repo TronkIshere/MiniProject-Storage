@@ -1,5 +1,4 @@
-import { auth } from "@/auth";
-import { signOut } from "next-auth/react";
+import { auth, signOut, signIn } from "@/auth";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -18,22 +17,27 @@ const Navbar = async () => {
               <Link href="/startup/create">
                 <span>Create</span>
               </Link>
-              <button onClick={signOut}>
-                <span>Logout</span>
-              </button>
+              <form
+                action={async () => {
+                  "use server";
+                  await signOut({ redirectTo: `/` });
+                }}
+              >
+                <button type="submit">Logout</button>
+              </form>
               <Link href={`/user/${session?.id}`}>
                 <span>{session?.user?.name}</span>
               </Link>
             </>
           ) : (
-            <button
-              onClick={async () => {
+            <form
+              action={async () => {
                 "use server";
-                await signIn("github");
+                await signIn(`github`);
               }}
             >
-              <span>Login</span>
-            </button>
+              <button type="submit">Login</button>
+            </form>
           )}
         </div>
       </nav>
